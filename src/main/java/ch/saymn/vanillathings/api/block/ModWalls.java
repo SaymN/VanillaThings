@@ -4,7 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.WallBlock;
 import net.minecraft.item.Item;
-import net.minecraft.util.LazyValue;
+import net.minecraft.util.LazyLoadBase;
 
 import java.util.Locale;
 
@@ -49,16 +49,16 @@ public enum ModWalls {
 
     public static final ModWalls[] VALUES = values();
 
-    private final LazyValue<Block> Wall;
-    private final LazyValue<Item> Item;
+    private final LazyLoadBase<Block> Wall;
+    private final LazyLoadBase<Item> Item;
 
     public final Block baseBlock;
 
     ModWalls(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
 
-        Wall = new LazyValue<>(() -> new WallBlock(Block.Properties.from(getBaseBlock())));
-        Item = new LazyValue<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
+        Wall = new LazyLoadBase<>(() -> new WallBlock(Block.Properties.from(getBaseBlock())));
+        Item = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
 
     public Block getWall() { return Wall.getValue(); }

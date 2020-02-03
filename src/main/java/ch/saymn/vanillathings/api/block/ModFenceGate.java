@@ -4,7 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.util.LazyValue;
+import net.minecraft.util.LazyLoadBase;
 
 import java.util.Locale;
 
@@ -58,16 +58,16 @@ public enum ModFenceGate {
 
     public static final ModFenceGate[] VALUES = values();
 
-    private final LazyValue<Block> FenceGate;
-    private final LazyValue<Item> Item;
+    private final LazyLoadBase<Block> FenceGate;
+    private final LazyLoadBase<Item> Item;
 
     public final Block baseBlock;
 
     ModFenceGate(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
 
-        FenceGate = new LazyValue<>(() -> new FenceGateBlock(Block.Properties.from(getBaseBlock())));
-        Item = new LazyValue<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
+        FenceGate = new LazyLoadBase<>(() -> new FenceGateBlock(Block.Properties.from(getBaseBlock())));
+        Item = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
 
     public Block getFenceGate() { return FenceGate.getValue(); }

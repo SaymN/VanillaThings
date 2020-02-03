@@ -4,7 +4,7 @@ import ch.saymn.vanillathings.block.stairs.init.BlockCustomStairs;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.util.LazyValue;
+import net.minecraft.util.LazyLoadBase;
 
 import java.util.Locale;
 
@@ -49,16 +49,16 @@ public enum ModStairs {
 
     public static final ModStairs[] VALUES = values();
 
-    private final LazyValue<Block> Stairs;
-    private final LazyValue<Item> Item;
+    private final LazyLoadBase<Block> Stairs;
+    private final LazyLoadBase<Item> Item;
 
     public final Block baseBlock;
 
     ModStairs(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
 
-        Stairs = new LazyValue<>(() -> new BlockCustomStairs(getBaseBlock().getDefaultState(), Block.Properties.from(getBaseBlock())));
-        Item = new LazyValue<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
+        Stairs = new LazyLoadBase<>(() -> new BlockCustomStairs(getBaseBlock().getDefaultState(), Block.Properties.from(getBaseBlock())));
+        Item = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
     public Block getStairs() { return Stairs.getValue(); }
 

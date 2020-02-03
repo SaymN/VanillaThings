@@ -5,7 +5,7 @@ import ch.saymn.vanillathings.init.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.util.LazyValue;
+import net.minecraft.util.LazyLoadBase;
 
 import java.util.Locale;
 
@@ -48,16 +48,16 @@ public enum ModVerticalSlabs {
 
     public static final ModVerticalSlabs[] VALUES = values();
 
-    private final LazyValue<Block> VerticalSlab;
-    private final LazyValue<Item> Item;
+    private final LazyLoadBase<Block> VerticalSlab;
+    private final LazyLoadBase<Item> Item;
 
     public final Block baseBlock;
 
     ModVerticalSlabs(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
 
-        VerticalSlab = new LazyValue<>(() -> new VerticalSlabBlock(Block.Properties.from(getBaseBlock())));
-        Item = new LazyValue<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
+        VerticalSlab = new LazyLoadBase<>(() -> new VerticalSlabBlock(Block.Properties.from(getBaseBlock())));
+        Item = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
 
     public Block getVerticalSlab() { return VerticalSlab.getValue(); }

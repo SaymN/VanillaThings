@@ -3,7 +3,7 @@ package ch.saymn.vanillathings.api.block;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.util.LazyValue;
+import net.minecraft.util.LazyLoadBase;
 
 import java.util.Locale;
 
@@ -21,16 +21,16 @@ public enum ModDoors {
 
     public static final ModDoors[] VALUES = values();
 
-    private final LazyValue<Block> Door;
-    private final LazyValue<Item> Item;
+    private final LazyLoadBase<Block> Door;
+    private final LazyLoadBase<Item> Item;
 
     public final Block baseBlock;
 
     ModDoors(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
         
-        Door = new LazyValue<>(() -> new BlockCustomDoor(Block.Properties.from(getBaseBlock())));
-        Item = new LazyValue<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
+        Door = new LazyLoadBase<>(() -> new BlockCustomDoor(Block.Properties.from(getBaseBlock())));
+        Item = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
 
     public Block getDoor() { return Door.getValue(); }

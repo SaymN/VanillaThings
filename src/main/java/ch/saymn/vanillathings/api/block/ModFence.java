@@ -4,7 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.FenceBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
-import net.minecraft.util.LazyValue;
+import net.minecraft.util.LazyLoadBase;
 
 import java.util.Locale;
 
@@ -56,16 +56,16 @@ public enum ModFence {
 
     public static final ModFence[] VALUES = values();
 
-    private final LazyValue<Block> Fence;
-    private final LazyValue<Item> Item;
+    private final LazyLoadBase<Block> Fence;
+    private final LazyLoadBase<Item> Item;
 
     public final Block baseBlock;
 
     ModFence(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
 
-        Fence = new LazyValue<>(() -> new FenceBlock(Block.Properties.from(getBaseBlock())));
-        Item = new LazyValue<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
+        Fence = new LazyLoadBase<>(() -> new FenceBlock(Block.Properties.from(getBaseBlock())));
+        Item = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
 
     public Block getFence() { return Fence.getValue(); }
