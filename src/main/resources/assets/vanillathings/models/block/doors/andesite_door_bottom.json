@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "vanillathings:block/andesite_door_bottom",
+        "top": "vanillathings:block/andesite_door_top"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "vanillathings:cobblestone_door",
+    "vanillathings:stone_door",
+    "vanillathings:andesite_door",
+    "vanillathings:diorite_door",
+    "vanillathings:granite_door"
+  ]
+}

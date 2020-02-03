@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowstone_block",
+  "pattern": [
+    "G",
+    "G"
+  ],
+  "key": {
+    "G": {
+      "item": "vanillathings:glowstone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:glowstone"
+  }
+}

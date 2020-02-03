@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top",
+    "textures": {
+        "bottom": "vanillathings:block/diorite_door_bottom",
+        "top": "vanillathings:block/diorite_door_top"
+    }
+}

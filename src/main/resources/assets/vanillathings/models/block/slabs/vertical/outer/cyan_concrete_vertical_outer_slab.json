@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/outer/outer_vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/cyan_concrete",
+    "top": "minecraft:block/cyan_concrete",
+    "side": "minecraft:block/cyan_concrete"
+  }
+}

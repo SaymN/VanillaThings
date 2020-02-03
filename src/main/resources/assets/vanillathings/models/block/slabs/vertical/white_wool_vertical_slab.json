@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/white_wool",
+    "top": "minecraft:block/white_wool",
+    "side": "minecraft:block/white_wool"
+  }
+}

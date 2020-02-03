@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_fence", "pattern": [
+    "ASA",
+    "ASA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:andesite"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:andesite_fence",
+    "count": 3
+  }
+}

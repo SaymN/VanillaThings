@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_stairs", "pattern": [
+    "C  ",
+    "CC ",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result": {
+    "item": "vanillathings:blue_concrete_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_fence", "pattern": [
+    "GSG",
+    "GSG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:polished_granite"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:polished_granite_fence",
+    "count": 3
+  }
+}

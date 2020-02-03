@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/inner/inner_vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/black_concrete",
+    "top": "minecraft:block/black_concrete",
+    "side": "minecraft:block/black_concrete"
+  }
+}

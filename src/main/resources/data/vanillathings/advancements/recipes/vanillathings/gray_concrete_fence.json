@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vanillathings:gray_concrete_fence"
+    ]
+  },
+  "criteria": {
+    "has_gray_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_concrete"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vanillathings:gray_concrete_fence"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gray_concrete",
+      "has_the_recipe"
+    ]
+  ]
+}

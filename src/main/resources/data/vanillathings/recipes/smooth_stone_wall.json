@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "vanillathings:smooth_stone_wall",
+    "count": 6
+  }
+}

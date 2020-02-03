@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_fence", "pattern": [
+    "GSG",
+    "GSG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:glowstone_fence",
+    "count": 3
+  }
+}

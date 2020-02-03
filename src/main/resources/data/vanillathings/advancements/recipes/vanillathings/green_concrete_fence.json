@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vanillathings:green_concrete_fence"
+    ]
+  },
+  "criteria": {
+    "has_green_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_concrete"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vanillathings:green_concrete_fence"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_concrete",
+      "has_the_recipe"
+    ]
+  ]
+}

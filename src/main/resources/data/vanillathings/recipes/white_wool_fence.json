@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_fence", "pattern": [
+    "CSC",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_wool"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:white_wool_fence",
+    "count": 3
+  }
+}

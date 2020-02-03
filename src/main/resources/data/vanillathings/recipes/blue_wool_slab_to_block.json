@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:blue_wool_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_wool"
+  }
+}

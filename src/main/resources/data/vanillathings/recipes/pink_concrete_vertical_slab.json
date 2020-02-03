@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_vertical_slab", "pattern": [
+    "C",
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:pink_concrete"
+    }
+  },
+  "result": {
+    "item": "vanillathings:pink_concrete_vertical_slab",
+    "count": 6
+  }
+}

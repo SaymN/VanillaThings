@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_stairs", "pattern": [
+    "C  ",
+    "CC ",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "vanillathings:blue_wool_stairs",
+    "count": 4
+  }
+}

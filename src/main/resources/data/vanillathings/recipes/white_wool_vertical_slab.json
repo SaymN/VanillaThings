@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_vertical_slab", "pattern": [
+    "C",
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "vanillathings:white_wool_vertical_slab",
+    "count": 6
+  }
+}

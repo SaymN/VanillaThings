@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_fence_gate", "pattern": [
+    "SAS",
+    "SAS"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:andesite"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:andesite_fence_gate"
+  }
+}

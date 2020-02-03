@@ -1,0 +1,21 @@
+  
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vanillathings:lime_wool_vertical_slab"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "name": "vanillathings:lime_wool_vertical_slab"
+    }
+  ]
+}

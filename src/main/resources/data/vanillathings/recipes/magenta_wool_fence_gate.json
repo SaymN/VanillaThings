@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_fence_gate", "pattern": [
+    "SCS",
+    "SCS"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:magenta_wool"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:magenta_wool_fence_gate"
+  }
+}

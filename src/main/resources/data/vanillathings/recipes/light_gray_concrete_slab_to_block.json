@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:light_gray_concrete_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_gray_concrete"
+  }
+}

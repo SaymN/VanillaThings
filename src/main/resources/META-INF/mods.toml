@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory# The modid of the mod
+modId="vanillathings" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Vanilla Things" #mandatory
+authors="SaymN" #optional
+logoFile="logo.png" #optional
+description='''
+Do you miss some Fences? Or Slabs, Stairs from the vanilla blocks?
+
+Vanilla Things adds a lot of exactly that!!
+'''
+[[dependencies.vanillathings]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vanillathings]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

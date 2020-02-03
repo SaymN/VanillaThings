@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_fence", "pattern": [
+    "DSD",
+    "DSD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:smooth_stone"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:smooth_stone_fence",
+    "count": 3
+  }
+}
