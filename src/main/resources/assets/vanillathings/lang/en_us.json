@@ -244,6 +244,12 @@
 	"block.vanillathings.yellow_wool_vertical_slab": "Vertical Yellow Wool Slab",
 	"block.vanillathings.light_blue_wool_vertical_slab": "Vertical Light Blue Wool Slab",
 	"block.vanillathings.magenta_wool_vertical_slab": "Vertical Magenta Wool Slab",
-	"block.vanillathings.black_wool_vertical_slab": "Vertical Black Wool Slab"
+	"block.vanillathings.black_wool_vertical_slab": "Vertical Black Wool Slab",
+	"block.vanillathings.oak_vertical_slab": "Vertical Oak Slab",
+	"block.vanillathings.spruce_vertical_slab": "Vertical Spruce Slab",
+	"block.vanillathings.birch_vertical_slab": "Vertical Birch Slab",
+	"block.vanillathings.jungle_vertical_slab": "Vertical Jungle Slab",
+	"block.vanillathings.acacia_vertical_slab": "Vertical Acacia Slab",
+	"block.vanillathings.dark_oak_vertical_slab": "Vertical Dark Oak Slab"
 
 }
