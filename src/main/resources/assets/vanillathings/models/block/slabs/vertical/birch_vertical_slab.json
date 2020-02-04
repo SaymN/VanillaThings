@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/birch_planks",
+    "top": "minecraft:block/birch_planks",
+    "side": "minecraft:block/birch_planks"
+  }
+}
