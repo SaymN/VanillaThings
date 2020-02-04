@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wood_vertical_slab", "pattern": [
+    "C",
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "item": "vanillathings:jungle_vertical_slab",
+    "count": 6
+  }
+}

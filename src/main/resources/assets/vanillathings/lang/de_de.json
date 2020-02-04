@@ -244,7 +244,13 @@
 	"block.vanillathings.yellow_wool_vertical_slab": "Vertikal-Gelbe Wollestufe",
 	"block.vanillathings.light_blue_wool_vertical_slab": "Vertikal-Hellgelbe Wollestufe",
 	"block.vanillathings.magenta_wool_vertical_slab": "Vertikal-Magenta Wollestufe",
-	"block.vanillathings.black_wool_vertical_slab": "Vertikal-Schwarze Wollestufe"
+	"block.vanillathings.black_wool_vertical_slab": "Vertikal-Schwarze Wollestufe",
+	"block.vanillathings.oak_vertical_slab": "Vertikale Eichenholzstufe",
+	"block.vanillathings.spruce_vertical_slab": "Vertikale Fichtenholzstufe",
+	"block.vanillathings.birch_vertical_slab": "Vertikale Birkenholzstufe",
+	"block.vanillathings.jungle_vertical_slab": "Vertikale Tropenholzstufe",
+	"block.vanillathings.acacia_vertical_slab": "Vertikale Akatienholzstufe",
+	"block.vanillathings.dark_oak_vertical_slab": "Vertikale Schwarzeichenholzstufe"
 
 	
 }
