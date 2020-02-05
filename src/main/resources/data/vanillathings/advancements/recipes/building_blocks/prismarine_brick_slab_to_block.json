@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vanillathings:brick_slab_to_block"
+    ]
+  },
+  "criteria": {
+    "has_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "prismarine_brick_slab"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vanillathings:brick_slab_to_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brick_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

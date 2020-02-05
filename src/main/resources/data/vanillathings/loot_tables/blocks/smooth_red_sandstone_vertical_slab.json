@@ -1,0 +1,21 @@
+  
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vanillathings:smooth_red_sandstone_vertical_slab"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "name": "vanillathings:smooth_red_sandstone_vertical_slab"
+    }
+  ]
+}

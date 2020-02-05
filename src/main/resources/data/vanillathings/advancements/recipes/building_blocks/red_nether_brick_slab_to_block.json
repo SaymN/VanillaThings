@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vanillathings:red_nether_brick_slab_to_block"
+    ]
+  },
+  "criteria": {
+    "has_red_nether_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_nether_bricks_slab"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vanillathings:red_nether_brick_slab_to_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_red_nether_brick_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

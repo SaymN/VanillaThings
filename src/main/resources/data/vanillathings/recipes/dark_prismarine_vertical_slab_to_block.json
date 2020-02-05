@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_block",
+  "pattern": [
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:dark_prismarine_vertical_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine"
+  }
+}
