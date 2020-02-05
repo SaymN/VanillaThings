@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_vertical_slab", "pattern": [
+    "C",
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "vanillathings:polished_andesite_vertical_slab",
+    "count": 6
+  }
+}

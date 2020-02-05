@@ -44,14 +44,13 @@ public enum ModVerticalSlabs {
     LIGHT_BLUE_WOOL(Blocks.LIGHT_BLUE_WOOL),
     MAGENTA_WOOL(Blocks.MAGENTA_WOOL),
     BLACK_WOOL(Blocks.BLACK_WOOL),
-    
     OAK(Blocks.OAK_SLAB),
     SPRUCE(Blocks.SPRUCE_SLAB),
     BIRCH(Blocks.BIRCH_SLAB),
     JUNGLE(Blocks.JUNGLE_SLAB),
     ACACIA(Blocks.ACACIA_SLAB),
-    DARK_OAK(Blocks.DARK_OAK_SLAB);
-/*	STONE(Blocks.STONE_SLAB),
+    DARK_OAK(Blocks.DARK_OAK_SLAB),
+	STONE(Blocks.STONE_SLAB),
     SMOOTH_STONE(Blocks.SMOOTH_STONE_SLAB),
     COBBLESTONE(Blocks.COBBLESTONE_SLAB),
     MOSSY_COBBLESTONE(Blocks.MOSSY_COBBLESTONE_SLAB),
@@ -78,9 +77,7 @@ public enum ModVerticalSlabs {
     QUARTZ(Blocks.QUARTZ_SLAB),
     SMOOTH_QUARTZ(Blocks.SMOOTH_QUARTZ_SLAB),
     PURPUR(Blocks.PURPUR_SLAB),
-    END_STONE_BRICK(Blocks.END_STONE_BRICK_SLAB),
-    PETRIFIED_OAK(Blocks.PETRIFIED_OAK_SLAB);
-*/
+    END_STONE_BRICK(Blocks.END_STONE_BRICK_SLAB);
 
     public static final ModVerticalSlabs[] VALUES = values();
 

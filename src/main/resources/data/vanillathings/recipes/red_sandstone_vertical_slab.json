@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stone_vertical_slab", "pattern": [
+    "C",
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "vanillathings:red_sandstone_vertical_slab",
+    "count": 6
+  }
+}
