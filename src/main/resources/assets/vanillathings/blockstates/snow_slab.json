@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "vanillathings:block/slabs/snow_slab" },
+        "type=top": { "model": "vanillathings:block/slabs/snow_slab_top" },
+        "type=double": { "model": "minecraft:block/snow" }
+    }
+}

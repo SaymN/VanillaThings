@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "material_block",
+  "pattern": [
+    "C",
+	"C"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:diamond_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_block"
+  }
+}

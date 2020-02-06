@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/outer/outer_vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/lapis_block",
+    "top": "minecraft:block/lapis_block",
+    "side": "minecraft:block/lapis_block"
+  }
+}

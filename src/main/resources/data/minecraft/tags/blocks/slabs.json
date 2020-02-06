@@ -38,6 +38,7 @@
 	"vanillathings:light_blue_wool_vertical_slab",
 	"vanillathings:magenta_wool_vertical_slab",
 	"vanillathings:black_wool_vertical_slab",
+	"vanillathings:iron_vertical_slab",
 	
 	
 	
@@ -76,6 +77,8 @@
 	"vanillathings:light_blue_wool_slab",
 	"vanillathings:magenta_wool_slab",
 	"vanillathings:black_wool_slab",
-	"vanillathings:smooth_stone_slab"
+	"vanillathings:smooth_stone_slab",
+	
+	"vanillathings:iron_slab"
   ]
 }

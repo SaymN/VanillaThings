@@ -1,7 +1,24 @@
-{ "parent": "vanillathings:block/slabs/vertical/vertical_slab",
-  "textures": {
-    "bottom": "minecraft:block/jungle_planks",
-    "top": "minecraft:block/jungle_planks",
-    "side": "minecraft:block/jungle_planks"
+{ 
+  "variants": {
+    "facing=east,shape=straight":  { "model": "vanillathings:block/slabs/vertical/jungle_vertical_slab" },
+    "facing=west,shape=straight":  { "model": "vanillathings:block/slabs/vertical/jungle_vertical_slab", "y": 180, "uvlock": true },
+    "facing=south,shape=straight": { "model": "vanillathings:block/slabs/vertical/jungle_vertical_slab", "y": 90, "uvlock": true },
+    "facing=north,shape=straight": { "model": "vanillathings:block/slabs/vertical/jungle_vertical_slab", "y": 270, "uvlock": true },
+    "facing=east,shape=outer_right":  { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab" },
+    "facing=west,shape=outer_right":  { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab", "y": 180, "uvlock": true },
+    "facing=south,shape=outer_right": { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab", "y": 90, "uvlock": true },
+    "facing=north,shape=outer_right": { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab", "y": 270, "uvlock": true },
+    "facing=east,shape=outer_left":  { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab", "y": 270, "uvlock": true },
+    "facing=west,shape=outer_left":  { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab", "y": 90, "uvlock": true },
+    "facing=south,shape=outer_left": { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab" },
+    "facing=north,shape=outer_left": { "model": "vanillathings:block/slabs/vertical/outer/jungle_vertical_outer_slab", "y": 180, "uvlock": true },
+    "facing=east,shape=inner_right":  { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab" },
+    "facing=west,shape=inner_right":  { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab", "y": 180, "uvlock": true },
+    "facing=south,shape=inner_right": { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab", "y": 90, "uvlock": true },
+    "facing=north,shape=inner_right": { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab", "y": 270, "uvlock": true },
+    "facing=east,shape=inner_left":  { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab", "y": 270, "uvlock": true },
+    "facing=west,shape=inner_left":  { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab", "y": 90, "uvlock": true },
+    "facing=south,shape=inner_left": { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab" },
+    "facing=north,shape=inner_left": { "model": "vanillathings:block/slabs/vertical/inner/jungle_vertical_inner_slab", "y": 180, "uvlock": true }
   }
 }

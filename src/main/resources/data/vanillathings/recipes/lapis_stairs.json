@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_stairs", "pattern": [
+    "C  ",
+    "CC ",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "item": "vanillathings:lapis_stairs",
+    "count": 4
+  }
+}

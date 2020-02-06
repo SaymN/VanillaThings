@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "stone_vertical_slab", "pattern": [
+  "group": "concrete_vertical_slab", "pattern": [
     "C",
     "C",
     "C"
   ],
   "key": {
     "C": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:gold_block"
     }
   },
   "result": {
-    "item": "vanillathings:smooth_stone_vertical_slab",
+    "item": "vanillathings:gold_vertical_slab",
     "count": 6
   }
 }
