@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/redstone_block",
+    "top": "minecraft:block/redstone_block",
+    "side": "minecraft:block/redstone_block"
+  }
+}
