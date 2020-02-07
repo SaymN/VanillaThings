@@ -46,13 +46,16 @@ public enum ModSlabs {
     LIGHT_BLUE_WOOL(Blocks.LIGHT_BLUE_WOOL),
     MAGENTA_WOOL(Blocks.MAGENTA_WOOL),
     BLACK_WOOL(Blocks.BLACK_WOOL),
-    
     IRON(Blocks.IRON_BLOCK),
     GOLD(Blocks.GOLD_BLOCK),
     DIAMOND(Blocks.DIAMOND_BLOCK),
+    EMERALD(Blocks.EMERALD_BLOCK),
+    COAL(Blocks.COAL_BLOCK),
+    OBSIDIAN(Blocks.OBSIDIAN),
     LAPIS(Blocks.LAPIS_BLOCK),
     REDSTONE(Blocks.REDSTONE_BLOCK),
-    SNOW(Blocks.SNOW)
+    SNOW(Blocks.SNOW),
+    BONE(Blocks.BONE_BLOCK)
     ;
 
     public static final ModSlabs[] VALUES = values();

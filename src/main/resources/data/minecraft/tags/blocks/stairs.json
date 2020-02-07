@@ -36,6 +36,17 @@
 	"vanillathings:yellow_wool_stairs",
 	"vanillathings:light_blue_wool_stairs",
 	"vanillathings:magenta_wool_stairs",
-	"vanillathings:black_wool_stairs"
-  ]
+	"vanillathings:black_wool_stairs",
+	
+	"vanillathings:iron_stairs",
+	"vanillathings:gold_stairs",
+	"vanillathings:diamond_stairs",
+	"vanillathings:emerald_stairs",
+	"vanillathings:coal_stairs",
+	"vanillathings:obsidian_stairs",
+	"vanillathings:lapis_stairs",
+	"vanillathings:redstone_stairs",
+	"vanillathings:snow_stairs"
+	
+	]
 }

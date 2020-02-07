@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_wall", "pattern": [
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "vanillathings:bone_wall",
+    "count": 6
+  }
+}

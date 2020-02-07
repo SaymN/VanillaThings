@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "material_block",
+  "pattern": [
+    "C",
+	"C"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:obsidian_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:obsidian"
+  }
+}

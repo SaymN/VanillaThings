@@ -43,6 +43,17 @@
 	"vanillathings:yellow_wool_fence",
 	"vanillathings:light_blue_wool_fence",
 	"vanillathings:magenta_wool_fence",
-	"vanillathings:black_wool_fence"
-  ]
+	"vanillathings:black_wool_fence",
+	
+	"vanillathings:iron_fence",
+	"vanillathings:gold_fence",
+	"vanillathings:diamond_fence",
+	"vanillathings:emerald_fence",
+	"vanillathings:coal_fence",
+	"vanillathings:obsidian_fence",
+	"vanillathings:lapis_fence",
+	"vanillathings:redstone_fence",
+	"vanillathings:snow_fence"
+	
+	]
 }

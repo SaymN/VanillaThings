@@ -36,6 +36,17 @@
 	"vanillathings:yellow_wool_wall",
 	"vanillathings:light_blue_wool_wall",
 	"vanillathings:magenta_wool_wall",
-	"vanillathings:black_wool_wall"
-  ]
+	"vanillathings:black_wool_wall",
+	
+	"vanillathings:iron_wall",
+	"vanillathings:gold_wall",
+	"vanillathings:diamond_wall",
+	"vanillathings:emerald_wall",
+	"vanillathings:coal_wall",
+	"vanillathings:obsidian_wall",
+	"vanillathings:lapis_wall",
+	"vanillathings:redstone_wall",
+	"vanillathings:snow_wall"
+	
+	]
 }

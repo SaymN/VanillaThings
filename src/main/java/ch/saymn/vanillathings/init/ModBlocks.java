@@ -11,13 +11,17 @@ import ch.saymn.vanillathings.api.block.ModStairs;
 import ch.saymn.vanillathings.api.block.ModVerticalSlabs;
 import ch.saymn.vanillathings.api.block.ModWalls;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.registries.ForgeRegistries;
 
 @EventBusSubscriber(modid = VanillaThings.MODID, bus = Bus.MOD)
@@ -56,6 +60,10 @@ public class ModBlocks {
 	        for (ModDoors Doors : ModDoors.VALUES) {
 				register(Doors.getName() + "_door", Doors.getDoor());
 	        }
+	        
+//	        if (FMLEnvironment.dist == Dist.CLIENT) {
+//	    		RenderTypeLookup.setRenderLayer(ModDoors.*****.getDoor(), RenderType.func_228643_e_());
+//	    	}
 
 	    }
 

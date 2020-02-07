@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/outer/outer_vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/emerald_block",
+    "top": "minecraft:block/emerald_block",
+    "side": "minecraft:block/emerald_block"
+  }
+}
