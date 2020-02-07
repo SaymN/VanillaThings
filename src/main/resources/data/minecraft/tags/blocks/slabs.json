@@ -79,6 +79,15 @@
 	"vanillathings:black_wool_slab",
 	"vanillathings:smooth_stone_slab",
 	
-	"vanillathings:iron_slab"
-  ]
+	"vanillathings:iron_slab",
+	"vanillathings:gold_slab",
+	"vanillathings:diamond_slab",
+	"vanillathings:emerald_slab",
+	"vanillathings:coal_slab",
+	"vanillathings:obsidian_slab",
+	"vanillathings:lapis_slab",
+	"vanillathings:redstone_slab",
+	"vanillathings:snow_slab"
+	
+	]
 }

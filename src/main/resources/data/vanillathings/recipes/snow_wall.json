@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_wall", "pattern": [
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "item": "vanillathings:snow_wall",
+    "count": 6
+  }
+}

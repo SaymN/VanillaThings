@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "vanillathings:block/slabs/bone_slab" },
+        "type=top": { "model": "vanillathings:block/slabs/bone_slab_top" },
+        "type=double": { "model": "minecraft:block/bone_block" }
+    }
+}

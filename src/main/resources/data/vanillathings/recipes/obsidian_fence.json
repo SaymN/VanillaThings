@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_fence", "pattern": [
+    "CSC",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "vanillathings:stone_rod"
+    }
+  },
+  "result": {
+    "item": "vanillathings:obsidian_fence",
+    "count": 3
+  }
+}

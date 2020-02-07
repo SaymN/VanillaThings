@@ -94,6 +94,7 @@
 	"block.vanillathings.lapis_stairs": "Lapis Stairs",
 	"block.vanillathings.redstone_stairs": "Redstone Stairs",
 	"block.vanillathings.snow_stairs": "Snow Stairs",
+	"block.vanillathings.bone_stairs": "Bone Stairs",
 	
 	"block.vanillathings.smooth_stone_wall": "Smooth Stone Wall",
 	"block.vanillathings.glowstone_wall": "Glowstone Wall",
@@ -130,13 +131,14 @@
 	"block.vanillathings.yellow_concrete_slab": "Yellow Concrete Slab",
 	"block.vanillathings.light_blue_concrete_slab": "Light blue Concrete Slab",
 	"block.vanillathings.magenta_concrete_slab": "Magenta Concrete Slab",
-	"block.vanillathings.black_concrete_slab": "Black Concrete Slab"
+	"block.vanillathings.black_concrete_slab": "Black Concrete Slab",
 	"block.vanillathings.iron_slab": "Vertical Iron Slab",
 	"block.vanillathings.gold_slab": "Gold Slab",
 	"block.vanillathings.diamond_slab": "Diamond Slab",
 	"block.vanillathings.lapis_slab": "Lapis Slab",
 	"block.vanillathings.redstone_slab": "Redstone Slab",
 	"block.vanillathings.snow_slab": "Snow Slab",
+	"block.vanillathings.bone_slab": "Bone Slab",
 	
 	"block.vanillathings.glowstone_vertical_slab": "Vertical Glowstone Slab",
 	"block.vanillathings.red_concrete_vertical_slab": "Vertical Red Concrete Slab",
@@ -155,12 +157,14 @@
 	"block.vanillathings.light_blue_concrete_vertical_slab": "Vertical Light Blue Concrete Slab",
 	"block.vanillathings.magenta_concrete_vertical_slab": "Vertical Magenta Concrete Slab",
 	"block.vanillathings.black_concrete_vertical_slab": "Vertical Black Concrete Slab",
+	
 	"block.vanillathings.iron_vertical_slab": "Vertical Iron Slab",
 	"block.vanillathings.gold_vertical_slab": "Vertical Gold Slab",
 	"block.vanillathings.diamond_vertical_slab": "Vertical Diamond Slab",
 	"block.vanillathings.lapis_vertical_slab": "Vertical Lapis Slab",
 	"block.vanillathings.redstone_vertical_slab": "Vertical Redstone Slab",
 	"block.vanillathings.snow_vertical_slab": "Vertical Snow Slab",	
+	"block.vanillathings.bone_vertical_slab": "Vertical Bone Slab",	
 
 	"block.vanillathings.red_wool_fence": "Red Wool Fence",
 	"block.vanillathings.blue_wool_fence": "Blue Wool Fence",
@@ -179,6 +183,17 @@
 	"block.vanillathings.magenta_wool_fence": "Magenta Wool Fence",
 	"block.vanillathings.black_wool_fence": "Black Wool Fence",
 	
+	"block.vanillathings.iron_fence": "Iron Fence",
+	"block.vanillathings.gold_fence": "Gold Fence",
+	"block.vanillathings.diamond_fence": "Diamond Fence",
+	"block.vanillathings.emerald_fence": "Emerald Fence",
+	"block.vanillathings.coal_fence": "Coal Fence",
+	"block.vanillathings.obsidian_fence": "Obsidian Fence",
+	"block.vanillathings.lapis_fence": "Lapis Fence",
+	"block.vanillathings.redstone_fence": "Redstone Fence",
+	"block.vanillathings.snow_fence": "Snow Fence",
+	"block.vanillathings.bone_fence": "Bone Fence",
+	
 	"block.vanillathings.red_wool_fence_gate": "Red Wool Fence Gate",
 	"block.vanillathings.blue_wool_fence_gate": "Blue Wool Fence Gate",
 	"block.vanillathings.white_wool_fence_gate": "White Wool Fence Gate",
@@ -195,6 +210,17 @@
 	"block.vanillathings.light_blue_wool_fence_gate": "Light Blue Wool Fence Gate",	
 	"block.vanillathings.magenta_wool_fence_gate": "Magenta Wool Fence Gate",	
 	"block.vanillathings.black_wool_fence_gate": "Black Wool Fence Gate",
+	
+	"block.vanillathings.iron_fence_gate": "Iron Fence Gate",
+	"block.vanillathings.gold_fence_gate": "Gold Fence Gate",
+	"block.vanillathings.diamond_fence_gate": "Diamond Fence Gate",
+	"block.vanillathings.emerald_fence_gate": "Emerald Fence Gate",
+	"block.vanillathings.coal_fence_gate": "Coal Fence Gate",
+	"block.vanillathings.obsidian_fence_gate": "Obsidian Fence Gate",
+	"block.vanillathings.lapis_fence_gate": "Lapis Fence Gate",
+	"block.vanillathings.redstone_fence_gate": "Redstone Fence Gate",
+	"block.vanillathings.snow_fence_gate": "Snow Fence Gate",
+	"block.vanillathings.bone_fence_gate": "Bone Fence Gate",
 	
 	"block.vanillathings.red_wool_stairs": "Red Wool Stairs",
 	"block.vanillathings.blue_wool_stairs": "Blue Wool Stairs",
@@ -213,6 +239,17 @@
 	"block.vanillathings.magenta_wool_stairs": "Magenta Wool Stairs",
 	"block.vanillathings.black_wool_stairs": "Black Wool Stairs",
 	
+	"block.vanillathings.iron_stairs": "Iron Stairs",
+	"block.vanillathings.gold_stairs": "Gold Stairs",
+	"block.vanillathings.diamond_stairs": "Diamond Stairs",
+	"block.vanillathings.emerald_stairs": "Emerald Stairs",
+	"block.vanillathings.coal_stairs": "Coal Stairs",
+	"block.vanillathings.obsidian_stairs": "Obsidian Stairs",
+	"block.vanillathings.lapis_stairs": "Lapis Stairs",
+	"block.vanillathings.redstone_stairs": "Redstone Stairs",
+	"block.vanillathings.snow_stairs": "Snow Stairs",
+	"block.vanillathings.bone_stairs": "Bone Stairs",
+	
 	"block.vanillathings.red_wool_wall": "Red Wool Wall",
 	"block.vanillathings.blue_wool_wall": "Blue Wool Wall",
 	"block.vanillathings.white_wool_wall": "White Wool Wall",
@@ -230,6 +267,17 @@
 	"block.vanillathings.magenta_wool_wall": "Magenta Wool Wall",
 	"block.vanillathings.black_wool_wall": "Black Wool Wall",
 	
+	"block.vanillathings.iron_wall": "Iron Wall",
+	"block.vanillathings.gold_wall": "Gold Wall",
+	"block.vanillathings.diamond_wall": "Diamond Wall",
+	"block.vanillathings.emerald_wall": "Emerald Wall",
+	"block.vanillathings.coal_wall": "Coal Wall",
+	"block.vanillathings.obsidian_wall": "Obsidian Wall",
+	"block.vanillathings.lapis_wall": "Lapis Wall",
+	"block.vanillathings.redstone_wall": "Redstone Wall",
+	"block.vanillathings.snow_wall": "Snow Wall",
+	"block.vanillathings.bone_wall": "Bone Wall",
+	
 	"block.vanillathings.red_wool_slab": "Red Wool Slab",
 	"block.vanillathings.blue_wool_slab": "Blue Wool Slab",
 	"block.vanillathings.white_wool_slab": "White Wool Slab",
@@ -246,6 +294,17 @@
 	"block.vanillathings.light_blue_wool_slab": "Light blue Wool Slab",
 	"block.vanillathings.magenta_wool_slab": "Magenta Wool Slab",
 	"block.vanillathings.black_wool_slab": "Black Wool Slab",
+	
+	"block.vanillathings.iron_slab": "Iron Slab",
+	"block.vanillathings.gold_slab": "Gold Slab",
+	"block.vanillathings.diamond_slab": "Diamond Slab",
+	"block.vanillathings.emerald_slab": "Emerald Slab",
+	"block.vanillathings.coal_slab": "Coal Slab",
+	"block.vanillathings.obsidian_slab": "Obsidian Slab",
+	"block.vanillathings.lapis_slab": "Lapis Slab",
+	"block.vanillathings.redstone_slab": "Redstone Slab",
+	"block.vanillathings.snow_slab": "Snow Slab",
+	"block.vanillathings.bone_slab": "Bone Slab",
 	
 	"block.vanillathings.red_wool_vertical_slab": "Vertical Red Wool Slab",
 	"block.vanillathings.blue_wool_vertical_slab": "Vertical Blue Wool Slab",
@@ -299,5 +358,5 @@
 	"block.vanillathings.smooth_quartz_vertical_slab": "Vertical Smooth Quartz Slab",
 	"block.vanillathings.purpur_vertical_slab": "Vertical Purpur Slab",
 	"block.vanillathings.end_stone_brick_vertical_slab": "Vertical End Stone Brick Slab"
-
+	
 }

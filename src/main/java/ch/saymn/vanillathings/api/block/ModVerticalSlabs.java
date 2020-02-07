@@ -77,7 +77,18 @@ public enum ModVerticalSlabs {
     QUARTZ(Blocks.QUARTZ_SLAB),
     SMOOTH_QUARTZ(Blocks.SMOOTH_QUARTZ_SLAB),
     PURPUR(Blocks.PURPUR_SLAB),
-    END_STONE_BRICK(Blocks.END_STONE_BRICK_SLAB);
+    END_STONE_BRICK(Blocks.END_STONE_BRICK_SLAB),
+    IRON(Blocks.IRON_BLOCK),
+    GOLD(Blocks.GOLD_BLOCK),
+    DIAMOND(Blocks.DIAMOND_BLOCK),
+    EMERALD(Blocks.EMERALD_BLOCK),
+    COAL(Blocks.COAL_BLOCK),
+    OBSIDIAN(Blocks.OBSIDIAN),
+    LAPIS(Blocks.LAPIS_BLOCK),
+    REDSTONE(Blocks.REDSTONE_BLOCK),
+    SNOW(Blocks.SNOW),
+    BONE(Blocks.BONE_BLOCK)
+    ;
 
     public static final ModVerticalSlabs[] VALUES = values();
 

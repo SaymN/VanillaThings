@@ -1,0 +1,7 @@
+{ "parent": "vanillathings:block/slabs/vertical/outer/outer_vertical_slab",
+  "textures": {
+    "bottom": "minecraft:block/bone_block_top_top",
+    "top": "minecraft:block/bone_block_top",
+    "side": "minecraft:block/bone_block_side"
+  }
+}
