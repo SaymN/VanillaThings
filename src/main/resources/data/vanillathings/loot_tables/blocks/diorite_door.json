@@ -9,13 +9,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "minecraft:diorite_door",
+              "block": "vanillathings:diorite_door",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "minecraft:diorite_door"
+          "name": "vanillathings:diorite_door"
         }
       ],
       "conditions": [
