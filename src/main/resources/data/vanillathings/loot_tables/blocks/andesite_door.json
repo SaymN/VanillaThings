@@ -9,13 +9,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "minecraft:andesite_door",
+              "block": "vanillathings:andesite_door",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "minecraft:andesite_door"
+          "name": "vanillathings:andesite_door"
         }
       ],
       "conditions": [

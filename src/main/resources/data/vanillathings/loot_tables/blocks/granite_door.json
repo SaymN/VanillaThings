@@ -9,13 +9,13 @@
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "minecraft:granite_door",
+              "block": "vanillathings:granite_door",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "minecraft:granite_door"
+          "name": "vanillathings:granite_door"
         }
       ],
       "conditions": [
