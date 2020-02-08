@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "vanillathings:block/polished_granite_ladder"
+  }
+}

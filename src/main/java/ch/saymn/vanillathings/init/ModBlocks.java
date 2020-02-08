@@ -6,6 +6,7 @@ import ch.saymn.vanillathings.VanillaThings;
 import ch.saymn.vanillathings.api.block.ModDoors;
 import ch.saymn.vanillathings.api.block.ModFence;
 import ch.saymn.vanillathings.api.block.ModFenceGate;
+import ch.saymn.vanillathings.api.block.ModLadders;
 import ch.saymn.vanillathings.api.block.ModSlabs;
 import ch.saymn.vanillathings.api.block.ModStairs;
 import ch.saymn.vanillathings.api.block.ModVerticalSlabs;
@@ -52,9 +53,13 @@ public class ModBlocks {
 	            register(Walls.getName() + "_wall", Walls.getWall());
 	        }
 	        
-	       
 	        for (ModDoors Doors : ModDoors.VALUES) {
 				register(Doors.getName() + "_door", Doors.getDoor());
+	        }
+	       
+	        for (ModLadders Ladders : ModLadders.VALUES) {
+				register(Ladders.getName() + "_ladder", Ladders.getLadder());
+
 	        }
 
 	    }

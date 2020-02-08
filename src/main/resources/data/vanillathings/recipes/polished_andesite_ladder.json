@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "ladders",
+  "pattern": [
+    "#X#",
+    "###",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "vanillathings:polished_andesite_ladder",
+    "count": 3
+  }
+}

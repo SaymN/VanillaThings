@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "ladders",
+  "pattern": [
+    "#X#",
+    "###",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "vanillathings:pink_wool_ladder",
+    "count": 3
+  }
+}

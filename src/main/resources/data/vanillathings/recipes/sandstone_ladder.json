@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "ladders",
+  "pattern": [
+    "#X#",
+    "###",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "result": {
+    "item": "vanillathings:sandstone_ladder",
+    "count": 3
+  }
+}
