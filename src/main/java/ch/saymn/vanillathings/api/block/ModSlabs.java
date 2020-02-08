@@ -55,7 +55,7 @@ public enum ModSlabs {
     LAPIS(Blocks.LAPIS_BLOCK),
     REDSTONE(Blocks.REDSTONE_BLOCK),
     SNOW(Blocks.SNOW),
-    BONE(Blocks.BONE_BLOCK)
+    BONE(Blocks.BONE_BLOCK),
     ;
 
     public static final ModSlabs[] VALUES = values();

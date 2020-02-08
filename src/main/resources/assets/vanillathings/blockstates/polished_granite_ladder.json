@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "vanillathings:block/ladders/polished_granite_ladder" },
+        "facing=east":  { "model": "vanillathings:block/ladders/polished_granite_ladder", "y": 90 },
+        "facing=south": { "model": "vanillathings:block/ladders/polished_granite_ladder", "y": 180 },
+        "facing=west":  { "model": "vanillathings:block/ladders/polished_granite_ladder", "y": 270 }
+    }
+}

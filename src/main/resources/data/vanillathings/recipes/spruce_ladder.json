@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "ladders",
+  "pattern": [
+    "#X#",
+    "###",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:spruce_planks_dust"
+    }
+  },
+  "result": {
+    "item": "vanillathings:spruce_ladder",
+    "count": 3
+  }
+}
