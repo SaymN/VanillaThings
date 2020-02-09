@@ -56,7 +56,7 @@ public enum ModStairs {
     REDSTONE(Blocks.REDSTONE_BLOCK),
     SNOW(Blocks.SNOW),
     BONE(Blocks.BONE_BLOCK),
-    GLASS(Blocks.GLASS)
+//	GLASS(Blocks.GLASS)
     ;
 
     public static final ModStairs[] VALUES = values();
