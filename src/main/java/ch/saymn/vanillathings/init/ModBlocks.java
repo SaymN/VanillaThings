@@ -14,7 +14,10 @@ import ch.saymn.vanillathings.api.block.ModWalls;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -47,6 +50,7 @@ public class ModBlocks {
 	        
 	        for (ModVerticalSlabs VerticalSlab : ModVerticalSlabs.VALUES) {
 	            register(VerticalSlab.getName() + "_vertical_slab", VerticalSlab.getVerticalSlab());
+	        	
 	        }
 	        
 	        for (ModWalls Walls : ModWalls.VALUES) {

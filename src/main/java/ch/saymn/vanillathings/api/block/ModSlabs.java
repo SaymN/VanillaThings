@@ -1,19 +1,20 @@
 package ch.saymn.vanillathings.api.block;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.LazyLoadBase;
 
 import java.util.Locale;
 
+import ch.saymn.vanillathings.block.slabs.init.CustomSlabBlock;
 import ch.saymn.vanillathings.init.ModItemGroup;
 
 public enum ModSlabs {
 
-    GLOWSTONE(Blocks.GLOWSTONE),
+	GLOWSTONE(Blocks.GLOWSTONE),
     SMOOTH_STONE(Blocks.SMOOTH_STONE),
+    
     WHITE_CONCRETE(Blocks.WHITE_CONCRETE),
     RED_CONCRETE(Blocks.RED_CONCRETE),
     ORANGE_CONCRETE(Blocks.ORANGE_CONCRETE),
@@ -30,6 +31,7 @@ public enum ModSlabs {
     LIGHT_BLUE_CONCRETE(Blocks.LIGHT_BLUE_CONCRETE),
     MAGENTA_CONCRETE(Blocks.MAGENTA_CONCRETE),
     BLACK_CONCRETE(Blocks.BLACK_CONCRETE),
+    
     WHITE_WOOL(Blocks.WHITE_WOOL),
     RED_WOOL(Blocks.RED_WOOL),
     ORANGE_WOOL(Blocks.ORANGE_WOOL),
@@ -46,6 +48,7 @@ public enum ModSlabs {
     LIGHT_BLUE_WOOL(Blocks.LIGHT_BLUE_WOOL),
     MAGENTA_WOOL(Blocks.MAGENTA_WOOL),
     BLACK_WOOL(Blocks.BLACK_WOOL),
+    
     IRON(Blocks.IRON_BLOCK),
     GOLD(Blocks.GOLD_BLOCK),
     DIAMOND(Blocks.DIAMOND_BLOCK),
@@ -55,7 +58,25 @@ public enum ModSlabs {
     LAPIS(Blocks.LAPIS_BLOCK),
     REDSTONE(Blocks.REDSTONE_BLOCK),
     SNOW(Blocks.SNOW),
-    BONE(Blocks.BONE_BLOCK)
+    BONE(Blocks.BONE_BLOCK),
+    
+    GLASS(Blocks.GLASS),
+    WHITE_STAINED_GLASS(Blocks.WHITE_STAINED_GLASS),
+    ORANGE_STAINED_GLASS(Blocks.ORANGE_STAINED_GLASS),
+    MAGENTA_STAINED_GLASS(Blocks.MAGENTA_STAINED_GLASS),
+    LIGHT_BLUE_STAINED_GLASS(Blocks.LIGHT_BLUE_STAINED_GLASS),
+    YELLOW_STAINED_GLASS(Blocks.YELLOW_STAINED_GLASS),
+    LIME_STAINED_GLASS(Blocks.LIME_STAINED_GLASS),
+    PINK_STAINED_GLASS(Blocks.PINK_STAINED_GLASS),
+    GRAY_STAINED_GLASS(Blocks.GRAY_STAINED_GLASS),
+    LIGHT_GRAY_STAINED_GLASS(Blocks.LIGHT_GRAY_STAINED_GLASS),
+    CYAN_STAINED_GLASS(Blocks.CYAN_STAINED_GLASS),
+    PURPLE_STAINED_GLASS(Blocks.PURPLE_STAINED_GLASS),
+    BLUE_STAINED_GLASS(Blocks.BLUE_STAINED_GLASS),
+    BROWN_STAINED_GLASS(Blocks.BROWN_STAINED_GLASS),
+    GREEN_STAINED_GLASS(Blocks.GREEN_STAINED_GLASS),
+    RED_STAINED_GLASS(Blocks.RED_STAINED_GLASS),
+    BLACK_STAINED_GLASS(Blocks.BLACK_STAINED_GLASS)
     ;
 
     public static final ModSlabs[] VALUES = values();
@@ -68,7 +89,7 @@ public enum ModSlabs {
     ModSlabs(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
 
-        Slab = new LazyLoadBase<>(() -> new SlabBlock(Block.Properties.from(getBaseBlock())));
+        Slab = new LazyLoadBase<>(() -> new CustomSlabBlock(Block.Properties.from(getBaseBlock())));
         Item = new LazyLoadBase<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
 
