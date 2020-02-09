@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "vanillathings:block/slabs/pink_stained_glass_slab" },
+        "type=top": { "model": "vanillathings:block/slabs/pink_stained_glass_slab_top" },
+        "type=double": { "model": "minecraft:block/pink_stained_glass" }
+    }
+}

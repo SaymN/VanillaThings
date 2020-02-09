@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool",
+  "pattern": [
+    "C",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:yellow_stained_glass_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_stained_glass"
+  }
+}
