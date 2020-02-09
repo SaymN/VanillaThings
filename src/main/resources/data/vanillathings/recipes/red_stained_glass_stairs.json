@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_stairs", "pattern": [
+    "C  ",
+    "CC ",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:red_stained_glass"
+    }
+  },
+  "result": {
+    "item": "vanillathings:red_stained_glass_stairs",
+    "count": 4
+  }
+}

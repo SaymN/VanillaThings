@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete_slab", "pattern": [
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:brown_stained_glass"
+    }
+  },
+  "result": {
+    "item": "vanillathings:brown_stained_glass_slab",
+    "count": 6
+  }
+}

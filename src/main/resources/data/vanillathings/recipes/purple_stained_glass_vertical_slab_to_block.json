@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "material_block",
+  "pattern": [
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:purple_stained_glass_vertical_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_stained_glass"
+  }
+}

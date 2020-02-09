@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vanillathings:lime_stained_glass_vertical_slab_to_block"
+    ]
+  },
+  "criteria": {
+    "has_lime_stained_glass_vertical_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "vanillathings:lime_stained_glass_vertical_slab"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vanillathings:lime_stained_glass_vertical_slab_to_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lime_stained_glass_vertical_slab",
+      "has_the_recipe"
+    ]
+  ]
+}

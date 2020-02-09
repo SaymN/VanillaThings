@@ -39,7 +39,7 @@ public class VerticalSlabBlock extends Block implements IWaterLoggable {
    protected static final VoxelShape WEST_OUTER_SHAPE  = Block.makeCuboidShape(0.0D, 16.0D, 8.0D, 8.0D, 0.0D, 16.0D);
 
    public VerticalSlabBlock(Block.Properties builder) {
-       super(builder);
+       super(builder.func_226896_b_());
        this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(SHAPE, VerticalSlabType.STRAIGHT).with(WATERLOGGED, Boolean.valueOf(false)));
    }
 

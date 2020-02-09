@@ -1,13 +1,13 @@
 package ch.saymn.vanillathings.api.block;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.FenceBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.LazyValue;
 
 import java.util.Locale;
 
+import ch.saymn.vanillathings.block.fence.init.BlockCustomFence;
 import ch.saymn.vanillathings.init.ModItemGroup;
 
 public enum ModFence {
@@ -75,7 +75,7 @@ public enum ModFence {
     ModFence(Block baseBlockIn) {
         this.baseBlock = baseBlockIn;
 
-        Fence = new LazyValue<>(() -> new FenceBlock(Block.Properties.from(getBaseBlock())));
+        Fence = new LazyValue<>(() -> new BlockCustomFence(Block.Properties.from(getBaseBlock())));
         Item = new LazyValue<>(() -> new Item(new Item.Properties().group(ModItemGroup.VANILLA_THINGS)));
     }
 
