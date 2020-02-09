@@ -3,14 +3,7 @@ package ch.saymn.vanillathings.init;
 import javax.annotation.Nullable;
 
 import ch.saymn.vanillathings.VanillaThings;
-import ch.saymn.vanillathings.api.block.ModDoors;
-import ch.saymn.vanillathings.api.block.ModFence;
-import ch.saymn.vanillathings.api.block.ModFenceGate;
-import ch.saymn.vanillathings.api.block.ModLadders;
-import ch.saymn.vanillathings.api.block.ModSlabs;
-import ch.saymn.vanillathings.api.block.ModStairs;
-import ch.saymn.vanillathings.api.block.ModVerticalSlabs;
-import ch.saymn.vanillathings.api.block.ModWalls;
+import ch.saymn.vanillathings.api.block.*;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -19,30 +12,36 @@ import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.IForgeRegistry;
 
 @EventBusSubscriber(modid = VanillaThings.MODID, bus = Bus.MOD)
 public class ModBlocks {
 
-
 @SubscribeEvent
 	    public static void RegisterModBlock(final RegistryEvent.Register<Block> event) {
+
 	        if (!event.getName().equals(ForgeRegistries.BLOCKS.getRegistryName())) return;
 
 	        for (ModStairs Stairs : ModStairs.VALUES) {
 	            register(Stairs.getName() + "_stairs", Stairs.getStairs());
 				
 				if (FMLEnvironment.dist == Dist.CLIENT) {
-	    		RenderTypeLookup.setRenderLayer(Stairs.getStairs(), RenderType.func_228643_e_());
+	    		RenderTypeLookup.setRenderLayer(Stairs.getStairs(), RenderType.func_228645_f_());
 				}
 	        }
 	        
 	        for (ModFence Fence : ModFence.VALUES) {
 	            register(Fence.getName() + "_fence", Fence.getFence());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Fence.getFence(), RenderType.func_228645_f_());
+				}
 	        }
 	        
 	        for (ModFenceGate FenceGate : ModFenceGate.VALUES) {
@@ -53,12 +52,16 @@ public class ModBlocks {
 	            register(Slab.getName() + "_slab", Slab.getSlab());
 				
 				if (FMLEnvironment.dist == Dist.CLIENT) {
-	    		RenderTypeLookup.setRenderLayer(Slab.getSlab(), RenderType.func_228643_e_());
+	    		RenderTypeLookup.setRenderLayer(Slab.getSlab(), RenderType.func_228645_f_());
 				}
 	        }
 	        
 	        for (ModVerticalSlabs VerticalSlab : ModVerticalSlabs.VALUES) {
 	            register(VerticalSlab.getName() + "_vertical_slab", VerticalSlab.getVerticalSlab());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(VerticalSlab.getVerticalSlab(), RenderType.func_228645_f_());
+				}
 	        }
 	        
 	        for (ModWalls Walls : ModWalls.VALUES) {
@@ -73,16 +76,30 @@ public class ModBlocks {
 				register(Ladders.getName() + "_ladder", Ladders.getLadder());
 				
 				if (FMLEnvironment.dist == Dist.CLIENT) {
-	    		RenderTypeLookup.setRenderLayer(Ladders.getLadder(), RenderType.func_228643_e_());
+	    		RenderTypeLookup.setRenderLayer(Ladders.getLadder(), RenderType.func_228645_f_());
 				}
 
 	        }
 
 	    }
+		@SubscribeEvent
+		public static void register(Register<Block> event) {
+			final IForgeRegistry<Block> registry = event.getRegistry();
+			
+		
+		}
+		
+		@SubscribeEvent
+		public static void registerBlockItem(Register<Item> event) {
+			final IForgeRegistry<Item> registry = event.getRegistry();
+
+			
+		}
 
 	    private static <T extends Block> T register(String name, T block) {
 	        BlockItem item = new BlockItem(block, new Item.Properties().group(ModItemGroup.VANILLA_THINGS));
 	        return register(name, block, item);
+
 	    }
 
 
