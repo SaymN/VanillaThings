@@ -35,6 +35,10 @@ public class ModBlocks {
 
 	        for (ModStairs Stairs : ModStairs.VALUES) {
 	            register(Stairs.getName() + "_stairs", Stairs.getStairs());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Stairs.getStairs(), RenderType.func_228643_e_());
+				}
 	        }
 	        
 	        for (ModFence Fence : ModFence.VALUES) {
@@ -47,6 +51,10 @@ public class ModBlocks {
 	        
 	        for (ModSlabs Slab : ModSlabs.VALUES) {
 	            register(Slab.getName() + "_slab", Slab.getSlab());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Slab.getSlab(), RenderType.func_228643_e_());
+				}
 	        }
 	        
 	        for (ModVerticalSlabs VerticalSlab : ModVerticalSlabs.VALUES) {

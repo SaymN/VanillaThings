@@ -46,7 +46,6 @@ public enum ModStairs {
     LIGHT_BLUE_WOOL(Blocks.LIGHT_BLUE_WOOL),
     MAGENTA_WOOL(Blocks.MAGENTA_WOOL),
     BLACK_WOOL(Blocks.BLACK_WOOL),
-    
     IRON(Blocks.IRON_BLOCK),
     GOLD(Blocks.GOLD_BLOCK),
     DIAMOND(Blocks.DIAMOND_BLOCK),
@@ -56,7 +55,8 @@ public enum ModStairs {
     LAPIS(Blocks.LAPIS_BLOCK),
     REDSTONE(Blocks.REDSTONE_BLOCK),
     SNOW(Blocks.SNOW),
-    BONE(Blocks.BONE_BLOCK)
+    BONE(Blocks.BONE_BLOCK),
+    GLASS(Blocks.GLASS)
     ;
 
     public static final ModStairs[] VALUES = values();

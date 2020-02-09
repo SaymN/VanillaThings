@@ -1,13 +1,13 @@
 package ch.saymn.vanillathings.api.block;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.LazyValue;
 
 import java.util.Locale;
 
+import ch.saymn.vanillathings.block.slabs.init.SlabBlock;
 import ch.saymn.vanillathings.init.ModItemGroup;
 
 public enum ModSlabs {
@@ -56,6 +56,7 @@ public enum ModSlabs {
     REDSTONE(Blocks.REDSTONE_BLOCK),
     SNOW(Blocks.SNOW),
     BONE(Blocks.BONE_BLOCK),
+    GLASS(Blocks.GLASS),
     ;
 
     public static final ModSlabs[] VALUES = values();
