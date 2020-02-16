@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "lamps",
+  "pattern": [
+    "###",
+    "#Y#",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "minecraft:jungle_slab"
+    },
+    "Y": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "vanillathings:jungle_lamp",
+    "count": 1
+  }
+}

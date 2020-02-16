@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "hanging=true": { "model": "vanillathings:block/lamps/hanging/diamond_lamp_hanging"},
+        "hanging=false": { "model": "vanillathings:block/lamps/diamond_lamp"}
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "vanillathings:block/blue_stained_glass_door_bottom",
+        "top": "vanillathings:block/blue_stained_glass_door_top"
+    }
+}

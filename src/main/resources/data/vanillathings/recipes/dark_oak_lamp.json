@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "lamps",
+  "pattern": [
+    "###",
+    "#Y#",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "Y": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "vanillathings:dark_oak_lamp",
+    "count": 1
+  }
+}

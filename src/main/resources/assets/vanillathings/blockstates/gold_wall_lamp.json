@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": { "model": "vanillathings:block/lamps/wall/gold_wall_lamp" },
+        "facing=south": { "model": "vanillathings:block/lamps/wall/gold_wall_lamp", "y": 90 },
+        "facing=west": { "model": "vanillathings:block/lamps/wall/gold_wall_lamp", "y": 180 },
+        "facing=north": { "model": "vanillathings:block/lamps/wall/gold_wall_lamp", "y": 270 }
+    }
+}

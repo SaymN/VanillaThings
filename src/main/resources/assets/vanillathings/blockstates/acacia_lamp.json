@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "hanging=true": { "model": "vanillathings:block/lamps/hanging/acacia_lamp_hanging"},
+        "hanging=false": { "model": "vanillathings:block/lamps/acacia_lamp"}
+  }
+}

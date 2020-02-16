@@ -22,7 +22,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 @EventBusSubscriber(modid = VanillaThings.MODID, bus = Bus.MOD)
 public class ModBlocks {
-
+	
 @SubscribeEvent
 	    public static void RegisterModBlock(final RegistryEvent.Register<Block> event) {
 
@@ -33,6 +33,30 @@ public class ModBlocks {
 				
 				if (FMLEnvironment.dist == Dist.CLIENT) {
 	    		RenderTypeLookup.setRenderLayer(Stairs.getStairs(), RenderType.func_228645_f_());
+				}
+	        }
+
+	        for (ModLamps Lamps : ModLamps.VALUES) {
+	            register(Lamps.getName() + "_lamp", Lamps.getLamp());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Lamps.getLamp(), RenderType.func_228645_f_());
+				}
+	        }
+
+	        for (ModWallLamps WallLamps : ModWallLamps.VALUES) {
+	            register(WallLamps.getName() + "_wall_lamp", WallLamps.getWallLamp());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(WallLamps.getWallLamp(), RenderType.func_228645_f_());
+				}
+	        }
+
+	        for (ModTables Tables : ModTables.VALUES) {
+	            register(Tables.getName() + "_table", Tables.getTable());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Tables.getTable(), RenderType.func_228645_f_());
 				}
 	        }
 	        
@@ -70,6 +94,10 @@ public class ModBlocks {
 	       
 	        for (ModDoors Doors : ModDoors.VALUES) {
 				register(Doors.getName() + "_door", Doors.getDoor());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Doors.getDoor(), RenderType.func_228645_f_());
+				}
 	        }
 	       
 	        for (ModLadders Ladders : ModLadders.VALUES) {
@@ -86,12 +114,20 @@ public class ModBlocks {
 		public static void register(Register<Block> event) {
 			final IForgeRegistry<Block> registry = event.getRegistry();
 			
+//			registry.register(oak_table.setRegistryName(VanillaThings.MODID, "oak_table"));
+//			
+//			if (FMLEnvironment.dist == Dist.CLIENT) {
+//	    		RenderTypeLookup.setRenderLayer(oak_table.getBlock(), RenderType.func_228645_f_());
+//				}
 		
 		}
 		
 		@SubscribeEvent
 		public static void registerBlockItem(Register<Item> event) {
 			final IForgeRegistry<Item> registry = event.getRegistry();
+			
+//			registry.register(new ModBlockItem(oak_table, ModItemGroup.VANILLA_THINGS));
+
 
 			
 		}
