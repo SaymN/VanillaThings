@@ -35,6 +35,30 @@ public class ModBlocks {
 	    		RenderTypeLookup.setRenderLayer(Stairs.getStairs(), RenderType.func_228645_f_());
 				}
 	        }
+
+	        for (ModLamps Lamps : ModLamps.VALUES) {
+	            register(Lamps.getName() + "_lamp", Lamps.getLamp());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Lamps.getLamp(), RenderType.func_228645_f_());
+				}
+	        }
+
+	        for (ModWallLamps WallLamps : ModWallLamps.VALUES) {
+	            register(WallLamps.getName() + "_wall_lamp", WallLamps.getWallLamp());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(WallLamps.getWallLamp(), RenderType.func_228645_f_());
+				}
+	        }
+
+	        for (ModTables Tables : ModTables.VALUES) {
+	            register(Tables.getName() + "_table", Tables.getTable());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Tables.getTable(), RenderType.func_228645_f_());
+				}
+	        }
 	        
 	        for (ModFence Fence : ModFence.VALUES) {
 	            register(Fence.getName() + "_fence", Fence.getFence());
@@ -70,6 +94,10 @@ public class ModBlocks {
 	       
 	        for (ModDoors Doors : ModDoors.VALUES) {
 				register(Doors.getName() + "_door", Doors.getDoor());
+				
+				if (FMLEnvironment.dist == Dist.CLIENT) {
+	    		RenderTypeLookup.setRenderLayer(Doors.getDoor(), RenderType.func_228645_f_());
+				}
 	        }
 	       
 	        for (ModLadders Ladders : ModLadders.VALUES) {

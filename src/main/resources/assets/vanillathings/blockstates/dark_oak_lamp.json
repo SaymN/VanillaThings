@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "hanging=true": { "model": "vanillathings:block/lamps/hanging/dark_oak_lamp_hanging"},
+        "hanging=false": { "model": "vanillathings:block/lamps/dark_oak_lamp"}
+  }
+}

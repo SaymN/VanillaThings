@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "hanging=true": { "model": "vanillathings:block/lamps/hanging/spruce_lamp_hanging"},
+        "hanging=false": { "model": "vanillathings:block/lamps/spruce_lamp"}
+  }
+}

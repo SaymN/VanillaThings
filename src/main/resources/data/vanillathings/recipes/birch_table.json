@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "tables",
+  "pattern": [
+    "###",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_slab"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "vanillathings:birch_table",
+    "count": 1
+  }
+}
