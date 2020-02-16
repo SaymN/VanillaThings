@@ -7,17 +7,17 @@ import ch.saymn.vanillathings.api.block.ModDoors;
 import ch.saymn.vanillathings.api.block.ModFence;
 import ch.saymn.vanillathings.api.block.ModFenceGate;
 import ch.saymn.vanillathings.api.block.ModLadders;
+import ch.saymn.vanillathings.api.block.ModLamps;
 import ch.saymn.vanillathings.api.block.ModSlabs;
 import ch.saymn.vanillathings.api.block.ModStairs;
+import ch.saymn.vanillathings.api.block.ModTables;
 import ch.saymn.vanillathings.api.block.ModVerticalSlabs;
+import ch.saymn.vanillathings.api.block.ModWallLamps;
 import ch.saymn.vanillathings.api.block.ModWalls;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -34,6 +34,18 @@ public class ModBlocks {
 
 	        for (ModStairs Stairs : ModStairs.VALUES) {
 	            register(Stairs.getName() + "_stairs", Stairs.getStairs());
+	        }
+
+	        for (ModLamps Lamps : ModLamps.VALUES) {
+	            register(Lamps.getName() + "_lamp", Lamps.getLamp());
+	        }
+
+	        for (ModWallLamps WallLamps : ModWallLamps.VALUES) {
+	            register(WallLamps.getName() + "_wall_lamp", WallLamps.getWallLamp());
+	        }
+
+	        for (ModTables Tables : ModTables.VALUES) {
+	            register(Tables.getName() + "_table", Tables.getTable());
 	        }
 	        
 	        for (ModFence Fence : ModFence.VALUES) {

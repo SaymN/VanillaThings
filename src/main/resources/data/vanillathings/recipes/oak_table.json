@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "tables",
+  "pattern": [
+    "###",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_slab"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "vanillathings:oak_table",
+    "count": 1
+  }
+}

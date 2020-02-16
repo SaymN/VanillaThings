@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "lamps",
+  "pattern": [
+    "###",
+    "#Y#",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "minecraft:emerald"
+    },
+    "Y": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "vanillathings:emerald_lamp",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "lamps",
+  "pattern": [
+    "###",
+    "#Y#",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Y": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "vanillathings:gold_lamp",
+    "count": 1
+  }
+}

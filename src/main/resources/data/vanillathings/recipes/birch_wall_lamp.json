@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "group": "wall_lamps",
+  "pattern": [
+    " ##",
+    "XY#",
+    " ##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "minecraft:birch_slab"
+    },
+    "Y": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "vanillathings:birch_wall_lamp",
+    "count": 1
+  }
+}
