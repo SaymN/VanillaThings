@@ -9,7 +9,7 @@
       "item": "minecraft:snow_block"
     },
     "S": {
-      "item": "vanillathings:stone_rod"
+      "tag": "forge:rods/stone"
     }
   },
   "result": {

@@ -9,7 +9,7 @@
       "item": "minecraft:blue_concrete"
     },
     "S": {
-      "item": "vanillathings:stone_rod"
+      "tag": "forge:rods/stone"
     }
   },
   "result": {

@@ -9,7 +9,7 @@
       "item": "minecraft:blue_wool"
     },
     "S": {
-      "item": "vanillathings:stone_rod"
+      "tag": "forge:rods/stone"
     }
   },
   "result": {

@@ -20,12 +20,14 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class ModItems {
 	
 	public static final stone_rod stone_rod = new stone_rod();
+	public static final recipe_holder recipe_holder = new recipe_holder();
 
 	@SubscribeEvent
 	public static void register(Register<Item> event) {
 		final IForgeRegistry<Item> registry = event.getRegistry();
 		
 		registry.register(stone_rod.setRegistryName(VanillaThings.MODID, "stone_rod"));
+		registry.register(recipe_holder.setRegistryName(VanillaThings.MODID, "recipe_holder"));
 
  }
 	    static final Map<String, BlockItem> BLOCKS_TO_REGISTER = new LinkedHashMap<>();

@@ -2,7 +2,8 @@
 	"itemGroup.vanillathings": "Vanilla Things",
 		
 	"item.vanillathings.stone_rod": "Stone Rod",
-	
+	"item.vanillathings.recipe_holder": "Recipe Placeholder",
+
 	"block.vanillathings.glowstone_ladder": "Glowstone Ladder",
     "block.vanillathings.white_wool_ladder": "White Wool Ladder",
     "block.vanillathings.red_wool_ladder": "Red Wool Ladder",
@@ -485,6 +486,9 @@
 	"block.vanillathings.smooth_quartz_vertical_slab": "Vertical Smooth Quartz Slab",
 	"block.vanillathings.purpur_vertical_slab": "Vertical Purpur Slab",
 	"block.vanillathings.end_stone_brick_vertical_slab": "Vertical End Stone Brick Slab",
+	"block.vanillathings.emerald_vertical_slab": "Vertical Emerald Slab",
+	"block.vanillathings.coal_vertical_slab": "Vertical Coal Slab",
+	"block.vanillathings.obsidian_vertical_slab": "Vertical Obsidian Slab",
 	
 	"block.vanillathings.oak_table": "Oak Table",
 	"block.vanillathings.spruce_table": "Spruce Table",

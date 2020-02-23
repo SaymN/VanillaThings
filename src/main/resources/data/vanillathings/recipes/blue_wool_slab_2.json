@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool_slab", "pattern": [
+    "CCC",
+	" Z "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:blue_wool"
+    },
+    "Z": {
+      "item": "vanillathings:recipe_holder"
+    }
+  },
+  "result": {
+    "item": "vanillathings:blue_wool_slab",
+    "count": 6
+  }
+}

@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "vanillathings:stone_rod",
+    "tag": "forge:rods/stone",
     "count": 4
   }
 }

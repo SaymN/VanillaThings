@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "#X#",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/stone"
+    },
+    "X": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "vanillathings:recipe_holder",
+    "count": 1
+  }
+}

@@ -2,6 +2,7 @@
 	"itemGroup.vanillathings": "Vanilla Things",
 		
 	"item.vanillathings.stone_rod": "Steinstange",
+	"item.vanillathings.recipe_holder": "Rezept-Platzhalter",
 	
 	"block.vanillathings.glowstone_ladder": "Glowstone leiter",
     "block.vanillathings.white_wool_ladder": "Weisse Wolleleiter",
@@ -486,6 +487,9 @@
 	"block.vanillathings.smooth_quartz_vertical_slab": "Vertikale Glatte Quarzstufe",
 	"block.vanillathings.purpur_vertical_slab": "Vertikale Purpurstufe",
 	"block.vanillathings.end_stone_brick_vertical_slab": "Vertikale Endsteinziegelstufe",
+	"block.vanillathings.emerald_vertical_slab": "Vertikale Smaragdstufe",
+	"block.vanillathings.coal_vertical_slab": "Vertikale Kohlestufe",
+	"block.vanillathings.obsidian_vertical_slab": "Vertikale Obsidianstufe",
 	
 	"block.vanillathings.oak_table": "Eichenholztisch",
 	"block.vanillathings.spruce_table": "Fichtenholztisch",
