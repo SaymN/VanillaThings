@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wool",
+  "pattern": [
+    "CC",
+	" Z"
+  ],
+  "key": {
+    "C": {
+      "item": "vanillathings:brown_wool_vertical_slab"
+    },
+    "Z": {
+      "item": "vanillathings:recipe_holder"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_wool"
+  }
+}

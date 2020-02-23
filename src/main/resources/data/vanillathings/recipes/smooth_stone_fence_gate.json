@@ -9,7 +9,7 @@
       "item": "minecraft:smooth_stone"
     },
     "S": {
-      "item": "vanillathings:stone_rod"
+      "tag": "forge:rods/stone"
     }
   },
   "result": {

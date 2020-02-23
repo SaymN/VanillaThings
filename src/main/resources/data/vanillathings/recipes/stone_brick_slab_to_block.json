@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "stone_block",
   "pattern": [
-    "S",
-    "S"
+    "SS"
   ],
   "key": {
     "S": {
