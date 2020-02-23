@@ -9,7 +9,7 @@
       "item": "minecraft:polished_diorite"
     },
     "S": {
-      "item": "vanillathings:stone_rod"
+      "tag": "forge:rods/stone"
     }
   },
   "result": {

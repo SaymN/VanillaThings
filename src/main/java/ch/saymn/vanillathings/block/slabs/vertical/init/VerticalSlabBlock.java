@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.IWaterLoggable;
+import net.minecraft.entity.EntityType;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.IFluidState;
@@ -79,6 +80,28 @@ public class VerticalSlabBlock extends Block implements IWaterLoggable {
 	{
 		return BlockRenderLayer.TRANSLUCENT;
 	}
+    public float func_220080_a(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return 1.0F;
+     }
+
+     public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+        return true;
+     }
+
+     public boolean func_229869_c_(BlockState p_229869_1_, IBlockReader p_229869_2_, BlockPos p_229869_3_) {
+        return false;
+     }
+
+     public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
+        return false;
+     }
+
+     public boolean canEntitySpawn(BlockState state, IBlockReader worldIn, BlockPos pos, EntityType<?> type) {
+        return false;
+     }
+     public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+  	      return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
+  	   }
 
    private static VoxelShape getStraightFacingShapes(Direction facing) {
        switch (facing) {

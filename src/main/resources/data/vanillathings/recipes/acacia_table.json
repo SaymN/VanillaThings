@@ -11,7 +11,7 @@
       "item": "minecraft:acacia_slab"
     },
     "X": {
-      "item": "minecraft:stick"
+      "tag": "forge:rods/wooden"
     }
   },
   "result": {
